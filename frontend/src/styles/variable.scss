@@ -1,0 +1,64 @@
+// ===== CSS 变量定义 =====
+:root {
+  // 颜色系统 - 基于语义化命名
+  --color-primary: #3168f5;
+  --color-primary-hover: #4086ff;
+  --color-primary-disabled: #a6caff;
+  --color-success: #2fbd81;
+  --color-warning: #ff9c28;
+  --color-error: #ff5733;
+  --color-table-hover: #f8fbff;
+  --color-menu-base: #f1f7ff;
+
+  // 中性色
+  --color-text-primary: #181818;
+  --color-text-secondary: #5c6273;
+  --color-text-tertiary: #878ea0;
+  --color-text-disabled: #bec3cf;
+  --color-border: #d9dce3;
+  --color-border-light: #f0f0f0;
+  --color-border-divider: #edeff2;
+  --color-bg-base: #f8f9fa;
+
+  // 阴影
+  --shadow-sm:
+    0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02),
+    0 2px 4px 0 rgba(0, 0, 0, 0.02);
+  --shadow-base:
+    0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12),
+    0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  --shadow-lg:
+    0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12),
+    0 8px 10px -5px rgba(0, 0, 0, 0.2);
+
+  // 间距系统 - 基于 8px 网格
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 48px;
+
+  // 字体系统
+  --font-family-base:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-family-code: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 20px;
+  --font-size-xxl: 24px;
+
+  --line-height-base: 1.5715;
+  --line-height-tight: 1.25;
+  --line-height-relaxed: 1.75;
+
+  // 圆角
+  --border-radius-sm: 2px;
+  --border-radius-base: 6px;
+  --border-radius-lg: 8px;
+  --border-radius-xl: 12px;
+}
