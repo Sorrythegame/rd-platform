@@ -1,0 +1,7 @@
+{
+  "name": "rd-platform",
+  "version": "1.0.0",
+  "description": "人事运营管理系统 Monorepo",
+  "private": true,
+  "scripts": {}
+}

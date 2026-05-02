@@ -1,6 +1,0 @@
-spring:
-  datasource:
-    # Override these locally if your environment differs.
-    url: jdbc:mysql://localhost:3306/rd_platform?serverTimezone=Asia/Shanghai&useSSL=false
-    username: root
-    password: your-local-password
